@@ -6,6 +6,19 @@ A deep learning NLP system that predicts **Yelp review star ratings (1–5)** fr
 
 ---
 
+## Results
+
+From the project report (`Data_Mining_Project_Report.pdf`), on 50,000 held-out test reviews:
+
+| Model | Test accuracy |
+|---|---|
+| **BiLSTM** | **67.62%** |
+| CNN-BiLSTM | 66.68% |
+
+Data split: 520,000 training, 130,000 validation and 50,000 test reviews, stratified by rating. The best input setting was a 20k-word vocabulary with a 650-token maximum length.
+
+---
+
 ## Models
 
 | Model | Architecture | Description |
@@ -92,6 +105,8 @@ A browser-based inference UI is included. Open `index.html` directly in any brow
 
 ---
 
-## Author
+## Authors
 
-**Arvinder Mundra** · [Portfolio](https://arvindermundraa.github.io/ArvinderMundra/) · [LinkedIn](https://www.linkedin.com/in/arvinder-mundraa) · [GitHub](https://github.com/arvindermundra1208)
+Team project for ECEN 758. Report authors: Akanksha Shah, Arvinder Singh Mundra, Kyren Liu and Tasfin Mahmud.
+
+Repository maintained by **Arvinder Mundra** · [Portfolio](https://portfolio-react-theta-gules.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/arvinder-mundraa) · [GitHub](https://github.com/arvindermundraa)
