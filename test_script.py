@@ -433,7 +433,7 @@ def predict_rating(model, tokenizer, review, device):
 if __name__ == "__main__":
 
     print("Loading Yelp Review Full dataset\n")    
-    dataset = load_dataset("yelp_review_full")
+    dataset = load_dataset("Yelp/yelp_review_full")
     df_train = dataset["train"].to_pandas()
     df_test  = dataset["test"].to_pandas()
 
